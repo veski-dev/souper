@@ -2,3 +2,8 @@ name: souper
 version: '${project.version}'
 main: dev.veski.souper.Souper
 api-version: '1.20'
+commands:
+  soup:
+    description: /soup
+    usage: /soup
+    aliases: [soup, souper]
